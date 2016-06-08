@@ -21,6 +21,16 @@ public class MainActivity extends AppCompatActivity {
 
         mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
         mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
+        mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
+        mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
+        mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
+        mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
+        mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
+        mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
+        mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
+        mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
+        mCards.add(new card(R.drawable.kendo, "剣道", "・けんどう", 0, "剣道～"));
+        mCards.add(new card(R.drawable.cyabu, "ちゃぶ台返し", "・ちゃぶだい",0,"ちゃぶ台返し～"));
 
         mCardAdapter = new CardAdapter(this,R.layout.card, mCards);
         mListView.setAdapter(mCardAdapter);
